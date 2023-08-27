@@ -1,0 +1,54 @@
+
+.phone-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  list-style: none;
+  padding: 0;
+  width: 100vw;
+}
+h1{
+ text-align: center;
+}
+
+.phone-item {
+  border: 1px solid #ccc;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  cursor: pointer; 
+  position: relative; 
+ 
+}
+ul{
+   list-style: none;
+}
+.phone-item img {
+  max-width: 100%;
+  height: auto;
+  max-height: 200px; /
+}
+
+.phone-details {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.phone-item .phone-details {
+  display: block;
+}
+
+
+
+.selected-phone .phone-details {
+  display: block;
+}
+.selected-phone{
+  background-color: black;
+}
